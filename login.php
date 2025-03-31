@@ -59,15 +59,13 @@ if(isset($_REQUEST['login']))
 <link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/login.css">
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <!--	Title
 	=========================================================-->
 <title>Real Estate PHP</title>
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
 <div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
 	<div class="d-flex justify-content-center y-middle position-relative">
 	  <div class="spinner-border" role="status">
@@ -75,7 +73,7 @@ if(isset($_REQUEST['login']))
 	  </div>
 	</div>
 </div>
---> 
+ 
 
 
 <div id="page-wrapper">
@@ -85,7 +83,7 @@ if(isset($_REQUEST['login']))
         <!--	Header end  -->
         
         <!--	Banner   --->
-        <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
+        <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -101,7 +99,7 @@ if(isset($_REQUEST['login']))
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
          <!--	Banner   --->
 		 
 		 
@@ -132,15 +130,15 @@ if(isset($_REQUEST['login']))
 									<span class="or-line"></span>
 									<span class="span-or">or</span>
 								</div>
-								<!-- FOR MORE PROJECTS visit: codeastro.com -->
+								
 								<!-- Social Login -->
-								<!-- <div class="social-login">
+								<div class="social-login">
 									<span>Login with</span>
 									<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
 									<a href="#" class="google"><i class="fab fa-google"></i></a>
 									<a href="#" class="facebook"><i class="fab fa-twitter"></i></a>
 									<a href="#" class="google"><i class="fab fa-instagram"></i></a>
-								</div> -->
+								</div>
 								<!-- /Social Login -->
 								
 								<div class="text-center dont-have">Don't have an account? <a href="register.php">Register</a></div>
@@ -154,7 +152,7 @@ if(isset($_REQUEST['login']))
 	<!--	login  -->
         
         
-        <!--	Footer   start--><!-- FOR MORE PROJECTS visit: codeastro.com -->
+        <!--	Footer   start-->
 		<?php include("include/footer.php");?>
 		<!--	Footer   start-->
         
