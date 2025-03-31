@@ -46,7 +46,7 @@ if(isset($_REQUEST['reg']))
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <head>
 <!-- Required meta tags -->
 <meta charset="utf-8">
@@ -81,8 +81,6 @@ if(isset($_REQUEST['reg']))
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
 <div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
 	<div class="d-flex justify-content-center y-middle position-relative">
 	  <div class="spinner-border" role="status">
@@ -90,17 +88,17 @@ if(isset($_REQUEST['reg']))
 	  </div>
 	</div>
 </div>
---> 
+ 
 
 
 <div id="page-wrapper">
     <div class="row"> 
         <!--	Header start  -->
 		<?php include("include/header.php");?>
-        <!--	Header end  --><!-- FOR MORE PROJECTS visit: codeastro.com -->
+        <!--	Header end  -->
         
         <!--	Banner   --->
-        <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
+        <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -116,7 +114,7 @@ if(isset($_REQUEST['reg']))
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
          <!--	Banner   --->
 		 
 		 
@@ -149,7 +147,7 @@ if(isset($_REQUEST['reg']))
 									  <label class="form-check-label">
 										<input type="radio" class="form-check-input" name="utype" value="user" checked>User
 									  </label>
-									</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+									</div>
 									<div class="form-check-inline">
 									  <label class="form-check-label">
 										<input type="radio" class="form-check-input" name="utype" value="agent">Agent
@@ -176,18 +174,18 @@ if(isset($_REQUEST['reg']))
 								</div>
 								
 								<!-- Social Login -->
-								<!-- <div class="social-login">
+								<div class="social-login">
 									<span>Register with</span>
 									<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
 									<a href="#" class="google"><i class="fab fa-google"></i></a>
 									<a href="#" class="facebook"><i class="fab fa-twitter"></i></a>
 									<a href="#" class="google"><i class="fab fa-instagram"></i></a>
-								</div> -->
+								</div>
 								<!-- /Social Login -->
 								
 								<div class="text-center dont-have">Already have an account? <a href="login.php">Login</a></div>
 								
-							</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+							</div>
                         </div>
                     </div>
                 </div>
@@ -206,7 +204,7 @@ if(isset($_REQUEST['reg']))
     </div>
 </div>
 <!-- Wrapper End --> 
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <!--	Js Link
 ============================================================--> 
 <script src="js/jquery.min.js"></script> 
