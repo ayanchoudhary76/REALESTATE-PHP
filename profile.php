@@ -73,8 +73,7 @@ if(isset($_POST['insert']))
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
+
 <div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
 	<div class="d-flex justify-content-center y-middle position-relative">
 	  <div class="spinner-border" role="status">
@@ -82,7 +81,7 @@ if(isset($_POST['insert']))
 	  </div>
 	</div>
 </div>
---> 
+ 
 
 
 <div id="page-wrapper">
@@ -171,7 +170,6 @@ if(isset($_POST['insert']))
             </div>
         </div>
 	<!--	Submit property   -->
-      <!-- FOR MORE PROJECTS visit: codeastro.com -->  
         
         <!--	Footer   start-->
 		<?php include("include/footer.php");?>
@@ -183,7 +181,6 @@ if(isset($_POST['insert']))
     </div>
 </div>
 <!-- Wrapper End --> 
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
 <!--	Js Link
 ============================================================--> 
 <script src="js/jquery.min.js"></script> 
