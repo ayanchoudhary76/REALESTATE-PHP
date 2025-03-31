@@ -42,7 +42,6 @@ if(isset($_POST['send']))
 	========================================================-->
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
 <!--	Css Link
 	========================================================-->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -61,8 +60,6 @@ if(isset($_POST['send']))
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
 <div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
 	<div class="d-flex justify-content-center y-middle position-relative">
 	  <div class="spinner-border" role="status">
@@ -70,8 +67,7 @@ if(isset($_POST['send']))
 	  </div>
 	</div>
 </div>
---> 
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+ 
 <div id="page-wrapper">
     <div class="row"> 
         <!--	Header start  -->
@@ -79,7 +75,7 @@ if(isset($_POST['send']))
         <!--	Header end  -->
         
         <!--	Banner -->
-        <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
+        <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -95,9 +91,8 @@ if(isset($_POST['send']))
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!--	Banner -->
-		<!-- FOR MORE PROJECTS visit: codeastro.com -->
         <!--	Contact Information -->
         <div class="full-row">
             <div class="container">
@@ -117,8 +112,8 @@ if(isset($_POST['send']))
                                 <li class="d-flex mb-4"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>
                                     <div class="contact-address">
                                         <h5 class="text-white">Call Us</h5>
-                                        <span class="d-table text-white">+1 234-567-8910</span>
-										<span class="text-white">+1 243-765-4321 </span>
+                                        <span class="d-table text-white">+91 9999999999</span>
+										<span class="text-white">+91 8888888888 </span>
 									</div>
                                 </li>
                                 <li class="d-flex mb-4"> <i class="fas fa-envelope text-white mr-2 font-13 mt-1"></i>
@@ -139,7 +134,7 @@ if(isset($_POST['send']))
 								<h2 class="text-secondary double-down-line text-center mb-5">Get In Touch</h2>
 								<?php echo $msg; ?><?php echo $error; ?>
 							</div>
-						</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+						</div>
 						<div class="row">
 							<div class="col-md-12">
 								<form class="w-100" action="#" method="post">
@@ -172,12 +167,10 @@ if(isset($_POST['send']))
 					</div>
                 </div>
             </div>
-        </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+        </div>
         <!--	Contact Inforamtion -->
         
-        <!--	Map -->
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5644.408542716626!2d-117.1523848363907!3d32.73426737275872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95495497f80c9%3A0x5df0f4372635e247!2sSan%20Diego%20Zoo!5e0!3m2!1sen!2snp!4v1658568764228!5m2!1sen!2snp" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		<!--	Map -->
+       
         
         <!--	Footer   start-->
 		<?php include("include/footer.php");?>
