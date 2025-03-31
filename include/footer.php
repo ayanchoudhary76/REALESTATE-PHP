@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="row copyright">
-                    <div class="col-sm-6"> <span class="text-white">© <?php echo date('Y');?> Real Estate Website - Developed By Suraj Kumar Vishwakarma</span> </div>
+                    <div class="col-sm-6"> <span class="text-white">© <?php echo date('Y');?> Real Estate Website - Developed By FourCodeForce</span> </div>
                     <div class="col-sm-6">
                         <ul class="line-menu text-white hover-text-primary float-right">
                             <li><a href="#">Privacy & Policy</a></li>
