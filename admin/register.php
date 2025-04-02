@@ -1,37 +1,31 @@
 <?php 
-include("config.php");
-$error="";
-$msg="";
-if(isset($_REQUEST['insert']))
-{
-	$name=$_REQUEST['name'];
-	$email=$_REQUEST['email'];
-	$pass=$_REQUEST['pass'];
-	$dob=$_REQUEST['dob'];
-	$phone=$_REQUEST['phone'];
-	
-	if(!empty($name) && !empty($email) && !empty($pass)  && !empty($dob) && !empty($phone))
-	{
-		$sql="insert into admin (auser,aemail,apass,adob,aphone) values('$name','$email','$pass','$dob','$phone')";
-		$result=mysqli_query($con,$sql);
-		if($result)
-			{
-				$msg='Admin Register Successfully';
-				
-						
+	include("config.php");
+	$error = "";
+	$msg = "";
+
+	if (isset($_REQUEST['insert'])) {
+		$name = $_REQUEST['name'];
+		$email = $_REQUEST['email'];
+		$pass = $_REQUEST['pass'];  // No hashing, plain text password
+		$dob = $_REQUEST['dob'];
+		$phone = $_REQUEST['phone'];
+
+		// Check if all fields are filled
+		if (!empty($name) && !empty($email) && !empty($pass) && !empty($dob) && !empty($phone)) {
+			$sql = "INSERT INTO admin (auser, aemail, apass, adob, aphone) VALUES ('$name', '$email', '$pass', '$dob', '$phone')";
+			$result = mysqli_query($con, $sql);
+
+			if ($result) {
+				$msg = 'Admin Register Successfully';
+			} else {
+				$error = '* Not Register Admin Try Again';
 			}
-			else
-			{
-				$error='* Not Register Admin Try Again';
-			}
+		} else {
+			$error = "* Please Fill all the Fields!";
+		}
 	}
-	else{
-		$error="* Please Fill all the Fields!";
-	}
-	
-	
-}
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
     

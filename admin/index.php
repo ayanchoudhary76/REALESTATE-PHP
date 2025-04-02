@@ -1,34 +1,38 @@
-<?php 
+<?php
 	session_start();
 	include("config.php");
-	$error="";
-	if(isset($_POST['login']))
-	{
-		$user=$_REQUEST['user'];
-		$pass=$_REQUEST['pass'];
-		$pass= sha1($pass);
-		
-		if(!empty($user) && !empty($pass))
-		{
-			$query = "SELECT auser, apass FROM admin WHERE auser='$user' AND apass='$pass'";
-			$result = mysqli_query($con,$query)or die(mysqli_error());
+	$error = "";
+
+	if (isset($_POST['login'])) {
+		$user = $_REQUEST['user'];
+		$pass = $_REQUEST['pass'];  // Plain text password
+
+		// Check if both fields are filled
+		if (!empty($user) && !empty($pass)) {
+			$query = "SELECT auser, apass FROM admin WHERE auser='$user'";
+			$result = mysqli_query($con, $query);
 			$num_row = mysqli_num_rows($result);
-			$row=mysqli_fetch_array($result);
-			if( $num_row ==1 )
-			{
-				$_SESSION['auser']=$user;
-				header("Location: dashboard.php");
+
+			// If username exists
+			if ($num_row == 1) {
+				$row = mysqli_fetch_array($result);
+
+				// Check if the password matches directly
+				if ($pass == $row['apass']) {
+					$_SESSION['auser'] = $user;
+					header("Location: dashboard.php");
+				} else {
+					$error = '* Invalid User Name or Password';
+				}
+			} else {
+				$error = '* Invalid User Name or Password';
 			}
-			else
-			{
-				$error='* Invalid User Name and Password';
-			}
-		}else{
-			$error="* Please Fill all the Fileds!";
+		} else {
+			$error = "* Please Fill all the Fields!";
 		}
-		
-	}   
+	}
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
     
