@@ -6,7 +6,7 @@
 	if (isset($_REQUEST['insert'])) {
 		$name = $_REQUEST['name'];
 		$email = $_REQUEST['email'];
-		$pass = $_REQUEST['pass'];  // No hashing, plain text password
+		$pass = $_REQUEST['pass'];  
 		$dob = $_REQUEST['dob'];
 		$phone = $_REQUEST['phone'];
 

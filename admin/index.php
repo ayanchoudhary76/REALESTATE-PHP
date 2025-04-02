@@ -5,7 +5,7 @@
 
 	if (isset($_POST['login'])) {
 		$user = $_REQUEST['user'];
-		$pass = $_REQUEST['pass'];  // Plain text password
+		$pass = $_REQUEST['pass'];  
 
 		// Check if both fields are filled
 		if (!empty($user) && !empty($pass)) {
@@ -17,7 +17,6 @@
 			if ($num_row == 1) {
 				$row = mysqli_fetch_array($result);
 
-				// Check if the password matches directly
 				if ($pass == $row['apass']) {
 					$_SESSION['auser'] = $user;
 					header("Location: dashboard.php");
