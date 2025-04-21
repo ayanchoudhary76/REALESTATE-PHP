@@ -238,7 +238,7 @@ include("config.php");
                             <div class="bg-success text-white rounded-circle position-absolute z-index-9">1</div>
                             <div class="left-arrow"><i class="flaticon-investor flat-medium icon-success" aria-hidden="true"></i></div>
                             <h5 class="text-secondary mt-5 mb-4">Discussion</h5>
-                            <p>Nascetur cubilia sociosqu aliquet ut elit nascetur nullam duis tincidunt nisl non quisque vestibulum platea ornare ridiculus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quas nulla atque officiis dolorum iste, nihil est quasi molestiae voluptate sint obcaecati maxime unde blanditiis itaque earum eligendi eius doloremque?</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -246,7 +246,7 @@ include("config.php");
                             <div class="bg-success text-white rounded-circle position-absolute z-index-9">2</div>
                             <div class="left-arrow"><i class="flaticon-search flat-medium icon-success" aria-hidden="true"></i></div>
                             <h5 class="text-secondary mt-5 mb-4">Files Review</h5>
-                            <p>Nascetur cubilia sociosqu aliquet ut elit nascetur nullam duis tincidunt nisl non quisque vestibulum platea ornare ridiculus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic inventore aut similique quas tempora eum, voluptates consequatur repellat, necessitatibus maxime dolores debitis! Corrupti quidem neque obcaecati dolores minima ullam!</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -254,7 +254,7 @@ include("config.php");
                             <div class="bg-success text-white rounded-circle position-absolute z-index-9">3</div>
                             <div><i class="flaticon-handshake flat-medium icon-success" aria-hidden="true"></i></div>
                             <h5 class="text-secondary mt-5 mb-4">Acquire</h5>
-                            <p>Nascetur cubilia sociosqu aliquet ut elit nascetur nullam duis tincidunt nisl non quisque vestibulum platea ornare ridiculus.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo beatae alias placeat rem exercitationem officiis quo! Repellat assumenda sapiente blanditiis. Nihil error nesciunt ad debitis esse, dicta amet iusto eligendi.</p>
                         </div>
                     </div>
                 </div>
